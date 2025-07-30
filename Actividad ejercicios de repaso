@@ -1,1 +1,21 @@
+# Actividad de repaso
+
+1. Explica, en tus propias palabras, por que es necesario que las computadoras representen los datos en binario.
+
+    Representar los tados con el sistema binario es mas eficiente para las computadoras, ademas este sistema permite representar los datos de una manera mas faicl o facil lo que favorece a las computadoras al momento de procesar la informacion
+
+2. Convierte el numero binario 10011011 a decimal y a hexadecimal.
+
+    ![texto](./Imagen%20de%20WhatsApp%202025-07-29%20a%20las%2021.00.48_89901ec7.jpg)
+
+3. Investiga y describe como se representa una imagen en formato PNG en el disco.
+
+    En formato PNG, una imagen se representa en el disco como una secuencia de datos estructurados en bloques, donde cada bloque contiene informacion especifica sobre la imagen. Estos bloques incluyen metadatos, datos de imagen comprimidos y datos de canal alfa (transparencia), entre otros. 
+
+4. Analiza la siguiente situacion: Que sucede si intentas almacenar un numero mayor al que puede representar un byte (por ejemplo, 300)? Como lo maneja Python?
+
+
+
+
+
 
