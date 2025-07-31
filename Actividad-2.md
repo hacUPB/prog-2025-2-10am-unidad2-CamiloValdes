@@ -18,3 +18,6 @@ Promedio Total /6
 Escribir ID, Total Promedio 
 Fin
 ```
+
+
+![Ejercicio2](Diagrama%20sin%20título.drawio.png)
