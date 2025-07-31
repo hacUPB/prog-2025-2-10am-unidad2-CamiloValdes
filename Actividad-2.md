@@ -19,5 +19,10 @@ Escribir ID, Total Promedio
 Fin
 ```
 
-
 ![Ejercicio2](Diagrama%20sin%20título.drawio.png)
+
+## Tarea 
+
+El curso se evalua con 7 notas, se conocen 6 notas que equivalen al 70% 
+Calcular cuanto debe sacar en la evaluacion final para aprobar con 3
+
