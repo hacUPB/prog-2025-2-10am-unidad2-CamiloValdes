@@ -14,7 +14,42 @@
 
 4. Analiza la siguiente situacion: Que sucede si intentas almacenar un numero mayor al que puede representar un byte (por ejemplo, 300)? Como lo maneja Python?
 
+Un *byte* solo puede almacenar valores entre *0 y 255, ya que tiene **8 bits* (2⁸ = 256 posibles valores).
 
+### a) En lenguajes como C:
+Si se intenta almacenar un número mayor (como 300), ocurre un *desbordamiento*. Por ejemplo:
+
+
+300 - 256 = 44
+
+
+El valor almacenado sería incorrecto (44).
+
+### b) En Python:
+
+Los enteros (int) de Python *no tienen un límite fijo*, así que puedes trabajar con números grandes sin problema.
+
+Sin embargo, si usas estructuras que simulan bytes, como bytes o bytearray, *sí hay restricciones*:
+
+python
+bytes([300])
+# Resultado: ValueError: bytes must be in range(0, 256)
+
+
+Para representar 300 correctamente en *más de un byte*, puedes usar el método to_bytes:
+
+python
+n = 300
+b = n.to_bytes(2, byteorder='big')
+print(b)  # Resultado: b'\x01,'
+
+
+Aquí, 300 se guarda usando *2 bytes*, donde:
+- \x01 representa 256
+- \x2C representa 44
+- En conjunto: (256×1) + 44 = *300*
+
+---
 
 
 
