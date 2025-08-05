@@ -34,7 +34,9 @@ Calcular cuanto debe sacar en la evaluacion final para aprobar con 3
 Inicio
 Leer N1, N2, N3, N4, N5, N6.
 Promedio= N1+N2+N3+N4+N5+N6 / 6
-Total= ((Promedio * 0.7) - 3.0 )/0.3
-Escribir Nota minima para aprobar
+NotaFinalNecesaria = (3.0 - (Promedio * 0.7)) / 0.3
+Escribir NotaFinalNecesaria
 Fin
 ```
+
+![Ejercicio2](diagramatarea.drawio.png)
