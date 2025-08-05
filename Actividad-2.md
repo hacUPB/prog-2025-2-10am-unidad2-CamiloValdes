@@ -26,3 +26,15 @@ Fin
 El curso se evalua con 7 notas, se conocen 6 notas que equivalen al 70% 
 Calcular cuanto debe sacar en la evaluacion final para aprobar con 3
 
+
+
+### SOLUCION 
+
+```
+Inicio
+Leer N1, N2, N3, N4, N5, N6.
+Promedio= N1+N2+N3+N4+N5+N6 / 6
+Total= ((Promedio * 0.7) - 3.0 )/0.3
+Escribir Nota minima para aprobar
+Fin
+```
