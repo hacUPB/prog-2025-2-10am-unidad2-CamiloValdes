@@ -162,3 +162,58 @@ Ingresar la fecha exacta de nacimiento y la fecha actual. calcular la edad
     Fin
 <img width="586" height="852" alt="image" src="https://github.com/user-attachments/assets/65529649-fb85-4c2d-8644-b4718b45b6bb" />
 
+
+
+## Bucles o ciclos 
+
+## Ejercicio 2 bucles 
+
+Se requiere un algoritmo para determinar de n cantidades cuantas son cero. cuantas son menores a cero y cuantas son mayores a cero.
+Realice el diagrama de flujo y el pseudocódigo representarlo, utilizando el ciclo apropropiado 
+
+|Variables|Tipo|
+|---------|----|
+|N|input|
+|ceros, mayores, menores| output (contador)|
+|N| Variable de control|
+
+```
+Inicio 
+Leer N
+ceros = 0
+mayores = 0
+menores = 0
+Mientras N > 0:
+    Leer cant
+    Si cant >0:
+        mayores = mayores + 1
+    Si no
+        Si cant = 0:
+            ceros = ceros + 1
+        Si no 
+            menores = menores +1 
+        Fin si 
+    Fin si 
+    N = N - 1
+Fin Mientras
+Escribir ceros, mayores, menores
+Fin
+```
+## Ejercicio 3
+Calcular el factorial de un nuemero entero ingresado por el usuario.
+
+```
+Inicio
+Leer N
+Factorial = 1
+Mientras N > 0:
+    Si N = 0:
+        Factorial= i
+    Si no 
+        Factorial = Factorial*N
+        N = N - 1
+Fin Mientras
+Escribir "El factorial es:", factorial
+Fin
+
+
