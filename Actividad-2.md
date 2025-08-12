@@ -160,5 +160,5 @@ Ingresar la fecha exacta de nacimiento y la fecha actual. calcular la edad
 
     Escribir "La edad actual es:", Edad-actual
     Fin
+<img width="586" height="852" alt="image" src="https://github.com/user-attachments/assets/65529649-fb85-4c2d-8644-b4718b45b6bb" />
 
-    
