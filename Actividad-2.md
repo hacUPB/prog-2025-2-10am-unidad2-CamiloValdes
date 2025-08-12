@@ -137,19 +137,13 @@ Ingresar la fecha exacta de nacimiento y la fecha actual. calcular la edad
 |Año-a|Entrada|Año actual|
 
     Inicio
-    Solicitar datos de nacimiento
-    Escribir "Ingrese su día de nacimiento (Dia-n):"
+    
     Leer Dia-n
-    Escribir "Ingrese su mes de nacimiento (Mes-n):"
     Leer Mes-n
-    Escribir "Ingrese su año de nacimiento (Año-n):"
     Leer Año-n
 
-    Escribir "Ingrese el día actual (Dia-a):"
     Leer Dia-a
-    Escribir "Ingrese el mes actual (Mes-a):"
     Leer Mes-a
-    Escribir "Ingrese el año actual (Año-a):"
     Leer Año-a
 
     Edad-actual = Año-a - Año-n
