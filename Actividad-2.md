@@ -122,3 +122,49 @@ Sí no
 Fin Sí
 costo_total = costo_alumno * alumnos        
 ```
+
+## Tarea 2 
+
+Ingresar la fecha exacta de nacimiento y la fecha actual. calcular la edad 
+### Analisis
+|Variables|Tipo|Comentario|
+|---------|----|----------|
+|Dia-n|Entrada|Dia exacto de nacimiento|
+|Mes-n|Entrada|Mes exacto de nacimiento|
+|Año-n|Entrada|Año exacto de nacimiento|
+|Dia-a|Entrada|Dia actual|
+|Mes-a|Entrada|Mes actual|
+|Año-a|Entrada|Año actual|
+
+    Inicio
+    Solicitar datos de nacimiento
+    Escribir "Ingrese su día de nacimiento (Dia-n):"
+    Leer Dia-n
+    Escribir "Ingrese su mes de nacimiento (Mes-n):"
+    Leer Mes-n
+    Escribir "Ingrese su año de nacimiento (Año-n):"
+    Leer Año-n
+
+    Escribir "Ingrese el día actual (Dia-a):"
+    Leer Dia-a
+    Escribir "Ingrese el mes actual (Mes-a):"
+    Leer Mes-a
+    Escribir "Ingrese el año actual (Año-a):"
+    Leer Año-a
+
+    Edad-actual = Año-a - Año-n
+
+    Si Mes-n > Mes-a Entonces
+        Edad-actual = Edad-actual - 1
+    Sino
+        Si Mes-n == Mes-a Entonces
+            Si Dia-n > Dia-a Entonces
+                Edad-actual = Edad-actual - 1
+            FinSi
+        FinSi
+    FinSi
+
+    Escribir "La edad actual es:", Edad-actual
+    Fin
+
+    
