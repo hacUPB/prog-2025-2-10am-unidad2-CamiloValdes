@@ -217,7 +217,7 @@ Escribir "El factorial es:", factorial
 Fin
 ```
 
-## Tarea ciclos - bucles 
+    0## Tarea ciclos - bucles 
 
 ### Tarjeta de credito 
 ```
@@ -269,4 +269,5 @@ Fin
     FIN
 
 ```
+
 
