@@ -216,4 +216,34 @@ Fin Mientras
 Escribir "El factorial es:", factorial
 Fin
 
+## TAREA CICLOS
+```
+INICIO
+
+    DEFINIR tasa_interes COMO 0.02
+
+    MOSTRAR "Ingrese el valor de la compra:"
+    LEER valor_compra
+
+    MOSTRAR "Ingrese el número de cuotas:"
+    LEER num_cuotas
+
+    SI tasa_interes == 0 ENTONCES
+        cuota = valor_compra / num_cuotas
+    SINO
+        cuota = valor_compra * [tasa_interes * (1 + tasa_interes)^num_cuotas] / [(1 + tasa_interes)^num_cuotas - 1]
+    FIN SI
+
+    MOSTRAR "El valor de cada cuota es: ", cuota
+
+    PARA i DESDE 1 HASTA num_cuotas HACER
+        MOSTRAR "Cuota ", i, ": ", cuota
+    FIN PARA
+
+FIN
+```
+
+```
+
+```
 
