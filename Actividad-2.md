@@ -215,32 +215,32 @@ Mientras N > 0:
 Fin Mientras
 Escribir "El factorial es:", factorial
 Fin
-
-## TAREA CICLOS
 ```
-INICIO
 
-    DEFINIR tasa_interes COMO 0.02
+## Tarea ciclos - bucles 
 
-    MOSTRAR "Ingrese el valor de la compra:"
-    LEER valor_compra
 
-    MOSTRAR "Ingrese el número de cuotas:"
-    LEER num_cuotas
+```
+    Inicio
+    Leer valorcompra
+    Leer num_cuotas
+    tasa = 0.02  // 2% mensual
 
-    SI tasa_interes == 0 ENTONCES
-        cuota = valor_compra / num_cuotas
-    SINO
-        cuota = valor_compra * [tasa_interes * (1 + tasa_interes)^num_cuotas] / [(1 + tasa_interes)^num_cuotas - 1]
-    FIN SI
+    // Fórmula de cuota fija
+    cuota ← valorcompra * (tasa * (1 + tasa) ^ num_cuotas) / ((1 + tasa) ^ num_cuotas - 1)
 
-    MOSTRAR "El valor de cada cuota es: ", cuota
+    
+    Mostrar "Valor de cada cuota: ", cuota
 
-    PARA i DESDE 1 HASTA num_cuotas HACER
-        MOSTRAR "Cuota ", i, ": ", cuota
-    FIN PARA
-
-FIN
+    
+    saldo = valor_compra
+    Para i desde 1 hasta num_cuotas hacer
+        interes = saldo * tasa
+        abono_capital ← cuota - interes
+        saldo = saldo - abono_capital
+        Mostrar "Cuota ", i, ": ", cuota, " (Interés: ", interes, " - Capital: ", abono_capital, " - Saldo restante: ", saldo, ")"
+    FinPara
+    Fin
 ```
 
 ```
