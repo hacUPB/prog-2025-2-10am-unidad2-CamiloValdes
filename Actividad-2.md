@@ -219,7 +219,7 @@ Fin
 
 ## Tarea ciclos - bucles 
 
-
+### Tarjeta de credito 
 ```
     Inicio
     Leer valorcompra
@@ -242,8 +242,31 @@ Fin
     FinPara
     Fin
 ```
-
+### Ahorro
 ```
+    INICIO
+
+    DEFINIR tasa_cambio COMO REAL
+    DEFINIR ahorro_dia COMO REAL
+    DEFINIR ahorro_total COMO REAL
+    DEFINIR ahorro_pesos COMO REAL
+    DEFINIR i COMO ENTERO
+
+    LEER tasa_cambio  // Por ejemplo, 4000 (1 dólar = 4000 pesos)
+    ahorro_dia = 3
+    ahorro_total = 0
+
+    PARA i DESDE 1 HASTA 365 HACER
+        ahorro_total = ahorro_total + ahorro_dia
+        ahorro_dia = ahorro_dia * 3
+    FIN PARA
+
+    ahorro_pesos = ahorro_total * tasa_cambio
+
+    MOSTRAR "El ahorro total en dólares en el año es: ", ahorro_total
+    MOSTRAR "El ahorro total en pesos en el año es: ", ahorro_pesos
+
+    FIN
 
 ```
 
